@@ -68,7 +68,7 @@ if drink_choice:
     st.markdown(f"[Listen Here]({info['playlist_link']})")
 
     # Business info display
-    st.image(info['business_image'], width=200)  # Show business image (if available)
+    st.image(info['business_image'], width=250)  # Show business image (if available)
     st.write(f"💼 **Business Name:** {info['business_name']}")
     st.write(f"🌐 [Visit Website]({info['website']})")
     st.write(f"🎁 **Special Offer:** {info['offer']}")
