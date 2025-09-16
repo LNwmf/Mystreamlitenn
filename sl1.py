@@ -1,5 +1,8 @@
 import streamlit as st
-st.set_page_config(layout="wide")
+def wide_space_default():
+st.set_page_config(layout=“wide”)
+
+wide_space_default()
 #streamlit run sl1.py
 # Business options and related data
 business_data = {
