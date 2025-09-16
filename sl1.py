@@ -1,4 +1,5 @@
 import streamlit as st
+layout="wide"
 #streamlit run sl1.py
 # Business options and related data
 business_data = {
