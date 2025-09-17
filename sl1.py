@@ -72,7 +72,11 @@ if drink_choice:
     st.write(f"💼 **Business Name:** {info['business_name']}")
     st.write(f"🌐 [Visit Website]({info['website']})")
     st.write(f"🎁 **Special Offer:** {info['offer']}")
+
+    st.write("") # space
     st.write("")
+    st.write("")
+
     # Share Playlist with Others (social sharing feature)
     st.write("👥 How many people did you share your playlist with?")
     shared_count = st.number_input("Number of people:", min_value=0, step=1)
