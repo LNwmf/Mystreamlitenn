@@ -74,7 +74,7 @@ if drink_choice:
     st.write(f"🎁 **Special Offer:** {info['offer']}")
 
     st.write("")
-    st.header("Share your playlist", divider="blue")
+    st.subheader("Share your playlist", divider="grey")
     st.write("")
 
     # Share Playlist with Others (social sharing feature)
