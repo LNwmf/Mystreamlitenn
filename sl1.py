@@ -73,8 +73,8 @@ if drink_choice:
     st.write(f"🌐 [Visit Website]({info['website']})")
     st.write(f"🎁 **Special Offer:** {info['offer']}")
 
-    st.write("") # space
     st.write("")
+    st.badge("Share your playlist!", color="green")
     st.write("")
 
     # Share Playlist with Others (social sharing feature)
