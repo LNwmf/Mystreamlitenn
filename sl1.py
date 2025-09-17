@@ -49,6 +49,9 @@ st.set_page_config(
     layout="centered",
 )
 
+st.sidebar.title("Navigation")
+
+
 # Title & Introduction
 st.image("https://theworldmusicfoundation.org/wp-content/uploads/2016/11/wmf_small_logo.png.webp", width=180)
 st.title("🎶 Cultural Music Exchange & BIPOC Businesses")
