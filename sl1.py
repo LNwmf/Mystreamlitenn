@@ -22,7 +22,7 @@ business_data = {
     },
     "Milk Tea Boba": {
         "playlist": "Sweet Mellow Blues",
-        "playlist_link": "https://www.youtube.com/watch?v=dQw4w9WgQ",
+        "playlist_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "business_name": "Tea yard",
         "offer": "5% off your boba order!",
         "booth_name": "Booth C",
@@ -31,7 +31,7 @@ business_data = {
     },
     "Horchata": {
         "playlist": "Reggaeton Fusions",
-        "playlist_link": "https://www.youtube.com/watch?v=dQw4w9WgQ",
+        "playlist_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "business_name": "La Cocina de Mama",
         "offer": "Get 1 free appetizer with your order!",
         "booth_name": "Booth D",
