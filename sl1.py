@@ -49,7 +49,7 @@ st.set_page_config(
     layout="centered",
 )
 
-st.sidebar.title("Navigation")
+st.sidebar.title("More Playlists", divider="grey")
 
 
 # Title & Introduction
