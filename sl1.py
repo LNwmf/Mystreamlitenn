@@ -62,7 +62,7 @@ cafes_page = st.Page(
     page="pages/2_cafes.py",
     title="Cafes",
     icon=":material/coffee:",
-    default="True"
+    default_index=0
 )
 
 # Navigation Setup
