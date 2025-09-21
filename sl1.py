@@ -18,7 +18,7 @@ about_page = st.Page(
 
 )
 cafes_page = st.Page(
-    page="pages/2_cafes.py",
+    page="pages/2_drinks.py",
     title="Cafes",
     icon=":material/coffee:",
 )
