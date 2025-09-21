@@ -53,12 +53,12 @@ st.set_page_config(
 
 # Pages Setup
 about_page = st.Page(
-    page="views/1_about.py",
+    page="pages/1_about.py",
     title="About Us",
     icon=":material/density_medium:",
 )
 cafes_page = st.Page(
-    page="views/2_cafes.py",
+    page="pages/2_cafes.py",
     title="Cafes",
     icon=":material/coffee:",
 )
@@ -111,7 +111,7 @@ if drink_choice:
         else:
             st.warning("⏳ Share your playlist with at least 3 people to unlock your reward!")
 
-
+# Weekly Business Spotlight
 st.markdown("---")
 st.subheader("Business Spotlight")
 
