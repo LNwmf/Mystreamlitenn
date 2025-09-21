@@ -1,9 +1,19 @@
 import streamlit as st
 
-st.title("Drinks")
-
-import streamlit as st
 #streamlit run sl1.py
+
+st.set_page_config(
+    page_title="Cultural Music Exchange & BIPOC Business Support",
+    page_icon="🎶",
+    layout="centered",
+)
+
+st.image("https://theworldmusicfoundation.org/wp-content/uploads/2016/11/wmf_small_logo.png.webp", width=180)
+st.title("🎶 Cultural Music Exchange & BIPOC Businesses")
+st.markdown("""
+Welcome! Pick a drink below to discover a playlist, support a local BIPOC business, and unlock a reward for sharing with others.
+""")
+
 # Business options and related data
 business_data = {
     "Caramel Macchiato": {
@@ -46,43 +56,15 @@ business_data = {
     # Add other drinks and related data here
 }
 
-# Streamlit App UI Setup
-st.set_page_config(
-    page_title="Cultural Music Exchange & BIPOC Business Support",
-    page_icon="🎶",
-    layout="centered",
-)
-
-
-
-# Pages Setup
-about_page = st.Page(
-    page="pages/1_about.py",
-    title="About Us",
-    icon=":material/density_medium:",
-
-)
-drinks_page = st.Page(
-    page="pages/2_drinks.py",
-    title="Drinks",
-    icon=":material/coffee:",
-)
-
-# Navigation Setup
-pg = st.navigation(pages=[about_page, drinks_page])
-
-# Run Navigation
-pg.run()
-
 
 
 
 # Title & Introduction
-st.image("https://theworldmusicfoundation.org/wp-content/uploads/2016/11/wmf_small_logo.png.webp", width=180)
-st.title("🎶 Cultural Music Exchange & BIPOC Businesses")
-st.markdown("""
-Welcome! Pick a drink below to discover a playlist, support a local BIPOC business, and unlock a reward for sharing with others.
-""")
+#st.image("https://theworldmusicfoundation.org/wp-content/uploads/2016/11/wmf_small_logo.png.webp", width=180)
+#st.title("🎶 Cultural Music Exchange & BIPOC Businesses")
+#st.markdown("""
+#Welcome! Pick a drink below to discover a playlist, support a local BIPOC business, and unlock a reward for sharing with others.
+#""")
 
 # Drink Selection
 drink_choice = st.selectbox("Pick a drink to get started:", ["", *business_data.keys()])
