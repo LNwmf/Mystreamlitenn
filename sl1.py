@@ -10,9 +10,7 @@ st.markdown("---")
 st.subheader("WMF")
 
 with st.expander("Learn more about us and our goals"):
-    st.markdown("**1. Hangry Cluck**")
-    st.markdown("**1. Tea yard**")
-    st.write("visit website")
+    st.write("https://theworldmusicfoundation.org/")
 
 about_page = st.Page(
     page="pages/1_about.py",
