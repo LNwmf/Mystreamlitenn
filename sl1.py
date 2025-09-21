@@ -10,3 +10,21 @@ st.subheader("WMF")
 with st.expander("Learn more about us and our goals"):
     st.markdown("**1. Hangry Cluck**")
     st.markdown("**1. Tea yard**")
+
+about_page = st.Page(
+    page="pages/1_about.py",
+    title="About Us",
+    icon=":material/density_medium:",
+
+)
+cafes_page = st.Page(
+    page="pages/2_cafes.py",
+    title="Cafes",
+    icon=":material/coffee:",
+)
+
+# Navigation Setup
+pg = st.navigation(pages=[about_page, cafes_page])
+
+# Run Navigation
+pg.run()
