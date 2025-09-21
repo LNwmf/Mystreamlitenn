@@ -21,9 +21,9 @@ with st.expander("Learn more about us and our goals"):
 
 #)
 drinks_page = st.Page(
-    #page="pages/2_drinks.py",
-    #title="Drinks",
-    #icon=":material/coffee:",
+    page="pages/2_drinks.py",
+    title="Drinks",
+    icon=":material/coffee:",
 )
 
 # Navigation Setup
