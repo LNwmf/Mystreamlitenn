@@ -7,7 +7,6 @@ st.write("This app is created by the World Music Foundation to share music and u
 
 # Learn More
 st.markdown("---")
-st.subheader("WMF")
 
 with st.expander("Learn more about us and our goals"):
     st.write("https://theworldmusicfoundation.org/")
