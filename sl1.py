@@ -20,14 +20,14 @@ with st.expander("Learn more about us and our goals"):
     #icon=":material/density_medium:",
 
 #)
-drinks_page = st.Page(
-    page="pages/2_drinks.py",
-    title="Drinks",
-    icon=":material/coffee:",
-)
+#drinks_page = st.Page(
+#    page="pages/2_drinks.py",
+#    title="Drinks",
+#    icon=":material/coffee:",
+#)
 
 # Navigation Setup
-pg = st.navigation(pages=[drinks_page])
+#pg = st.navigation(pages=[drinks_page])
 
 # Run Navigation
 #pg.run()
