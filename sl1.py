@@ -48,6 +48,7 @@ st.set_page_config(
     page_icon="🎶",
     layout="centered",
 )
+st.sidebar.title("Navigation")
 # Pages Setup
 about_page = st.Page(
     page="views/1_about.py",
@@ -66,7 +67,7 @@ pg = st.navigation(pages=[about_page, cafes_page])
 # Run Navigation
 pg.run()
 
-st.sidebar.title("Navigation")
+
 
 
 # Title & Introduction
