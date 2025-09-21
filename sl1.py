@@ -50,7 +50,7 @@ st.set_page_config(
 )
 
 page = st.sidebar.selectbox("Go to", ["About Us", "Cafes"])
-if page == "About Us":
+
 # Pages Setup
 about_page = st.Page(
     page="views/1_about.py",
