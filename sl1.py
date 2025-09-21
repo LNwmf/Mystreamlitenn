@@ -52,7 +52,7 @@ st.sidebar.title("Navigation")
 # Pages Setup
 about_page = st.Page(
     page="views/1_about.py",
-    title="About",
+    title="About Us",
     icon=":material/density_medium:",
 )
 cafes_page = st.Page(
@@ -60,7 +60,11 @@ cafes_page = st.Page(
     title="Cafes",
     icon=":material/coffee:",
 )
-
+if page == "views/1_about.py":
+    st.subheader("About Us")
+    st.write("This app is created by the World Music Foundation.")
+    with st.expander("Learn about us"):
+        st.write("We are a nonprofit organization that strives to end racism by spreading cultural music to underserved communities.")
 # Navigation Setup
 pg = st.navigation(pages=[about_page, cafes_page])
 
