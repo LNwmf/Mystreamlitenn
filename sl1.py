@@ -49,7 +49,7 @@ st.set_page_config(
     layout="centered",
 )
 
-page = st.sidebar.selectbox("Go to", ["About Us", "Cafes"])
+
 
 # Pages Setup
 about_page = st.Page(
@@ -62,11 +62,7 @@ cafes_page = st.Page(
     title="Cafes",
     icon=":material/coffee:",
 )
-if page == "views/1_about.py":
-    st.subheader("About Us")
-    st.write("This app is created by the World Music Foundation.")
-    with st.expander("Learn about us"):
-        st.write("We are a nonprofit organization that strives to end racism by spreading cultural music to underserved communities.")
+
 # Navigation Setup
 pg = st.navigation(pages=[about_page, cafes_page])
 
@@ -114,3 +110,11 @@ if drink_choice:
             st.success(f"🎁 You unlocked a reward! Show this screen at {info['booth_name']} to claim your prize!")
         else:
             st.warning("⏳ Share your playlist with at least 3 people to unlock your reward!")
+
+
+st.markdown("---")
+st.subheader("Business Spotlight")
+
+with st.expander("Click to see this week's featured businesses"):
+    st.markdown("**1. Hangry Cluck**")
+    st.markdown("**1. Tea yard**")
