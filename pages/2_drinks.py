@@ -57,15 +57,6 @@ business_data = {
 }
 
 
-
-
-# Title & Introduction
-#st.image("https://theworldmusicfoundation.org/wp-content/uploads/2016/11/wmf_small_logo.png.webp", width=180)
-#st.title("🎶 Cultural Music Exchange & BIPOC Businesses")
-#st.markdown("""
-#Welcome! Pick a drink below to discover a playlist, support a local BIPOC business, and unlock a reward for sharing with others.
-#""")
-
 # Drink Selection
 drink_choice = st.selectbox("Pick a drink to get started:", ["", *business_data.keys()])
 
