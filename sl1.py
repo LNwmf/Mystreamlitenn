@@ -56,11 +56,13 @@ about_page = st.Page(
     page="pages/1_about.py",
     title="About Us",
     icon=":material/density_medium:",
+
 )
 cafes_page = st.Page(
     page="pages/2_cafes.py",
     title="Cafes",
     icon=":material/coffee:",
+    default="True"
 )
 
 # Navigation Setup
