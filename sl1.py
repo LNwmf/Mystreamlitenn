@@ -48,6 +48,23 @@ st.set_page_config(
     page_icon="🎶",
     layout="centered",
 )
+# Pages Setup
+about_page = st.Page(
+    page="views/1_about.py",
+    title="About",
+    icon=":material/density_medium:",
+)
+cafes_page = st.Page(
+    page="views/2_cafes.py",
+    title="Cafes",
+    icon=":material/coffee:",
+)
+
+# Navigation Setup
+pg = st.navigation(pages=[about_page, cafes_page])
+
+# Run Navigation
+pg.run()
 
 st.sidebar.title("Navigation")
 
