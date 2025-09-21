@@ -17,14 +17,14 @@ about_page = st.Page(
     icon=":material/density_medium:",
 
 )
-cafes_page = st.Page(
+drinks_page = st.Page(
     page="pages/2_drinks.py",
-    title="Cafes",
+    title="Drinks",
     icon=":material/coffee:",
 )
 
 # Navigation Setup
-pg = st.navigation(pages=[about_page, cafes_page])
+pg = st.navigation(pages=[about_page, drinks_page])
 
 # Run Navigation
 pg.run()
