@@ -50,7 +50,7 @@ st.set_page_config(
 )
 st.sidebar.title("Navigation")
 # Pages Setup
-about_page = st.Page(
+about_page = st.sidebar.Page(
     page="views/1_about.py",
     title="About",
     icon=":material/density_medium:",
